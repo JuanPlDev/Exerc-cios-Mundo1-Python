@@ -1,0 +1,5 @@
+frase = input("Digite uma frase: ")
+mais = frase.upper()
+print("Vezes que aparece a letra A",mais.count('A'))
+print("Posição que a letra A aparece a primeira vez ",mais.find('A'))
+print("Posição que a letra A aparece a última vez",mais.rfind('A'))
